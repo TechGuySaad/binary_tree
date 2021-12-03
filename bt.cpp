@@ -75,10 +75,10 @@ node* bt:: create(int x)
 
 void bt :: preorder(node *rot)
 {
-    if(rot != NULL)
-    {
+    
+    
     cout<<rot->data<<" ";
-    }
+    
 
     if(rot -> left != NULL)
     {
